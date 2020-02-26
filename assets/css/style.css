@@ -1,0 +1,111 @@
+body{
+  font-family: 'Monsterrat', sans-serif;
+}
+.svg-wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#us-map{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60%;
+}
+path, circle{
+  animation: all 1.25s ease;
+  fill: #D3D3D3;
+}
+path:after{
+  content:'ABC';
+}
+path:hover, circle:hover {
+  cursor: pointer;
+  stroke: #333;
+  stroke-width: 1px;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+.votes-hover {
+  display: none;
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+
+.c1{fill: darkseagreen !important; background: darkseagreen !important;} /* Sanders */
+.c2{fill: darksalmon !important; background: darksalmon !important;} /* Buttigieg */
+.c3{fill: darkslateblue !important; background: darkslateblue !important;} /* Biden */
+.c4{fill: cornflowerblue !important; background: cornflowerblue !important;} /* Warren */
+.c5{fill: firebrick !important; background: firebrick !important;} /* Klobuchar */
+
+#SC{fill: #999;}
+
+/*#CA, #VT, #TX, #MN, #MA, #VA, #NC, #TN, #OK, #AR, #AL, #UT, #CO, #ME{
+  fill: darkseagreen;
+}*/
+
+.delegates{
+  bottom: 50px;
+  position: absolute;
+  width: 98%;
+}
+.delegates table{
+  width: 100%;
+}
+.name{
+  width: 15%;
+}
+.bar{
+  background: #EEE;
+  height: 40px;
+  position: relative;
+  width: 85%;
+}
+.bar-del{
+  left: 45%;
+  position: relative;
+  z-index: 3;
+}
+.bar-color{
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  z-index: 2;
+}
+
+.votes-hover{
+  text-align: center;
+}
+.votes-hover strong{
+  display: block;
+  font-size: 16px;
+  margin: 8px 0;
+}
+.votes td{
+  border-bottom: 1px solid #EEE;
+  padding: 3px 10px;
+}
+.votes tr:last-child td{
+  border-bottom: 0;
+}
+
+
+
+
+

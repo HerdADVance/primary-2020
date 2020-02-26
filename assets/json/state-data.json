@@ -1,0 +1,419 @@
+var stateData = {
+  "IA": {
+    "caucus": true,
+    "date": "February 3",
+    "name": "Iowa",
+    "votes":[
+      {
+        "id": 2,
+        "name": "Buttigieg",
+        "firstVote": "37,595",
+        "finalVote": "43,273",
+        "sde": 26.2,
+        "delegates": 14
+      },
+      {
+        "id": 1,
+        "name": "Sanders",
+        "firstVote": "43,698",
+        "finalVote": "45,831",
+        "sde": 26.2,
+        "delegates": 12
+      },
+      {
+        "id": 4,
+        "name": "Warren",
+        "firstVote": "32,609",
+        "finalVote": "34,932",
+        "sde": 18,
+        "delegates": 8
+      },
+      {
+        "id": 3,
+        "name": "Biden",
+        "firstVote": "26,323",
+        "finalVote": "23,631",
+        "sde": 15.8,
+        "delegates": 6
+      },
+      {
+        "id": 5,
+        "name": "Klobuchar",
+        "firstVote": "22,473",
+        "finalVote": "21,120",
+        "sde": 12.3,
+        "delegates": 1
+      },
+      {
+        "id": 6,
+        "name": "Yang",
+        "firstVote": "8,929",
+        "finalVote": "1,759",
+        "sde": 1,
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Steyer",
+        "firstVote": "3,054",
+        "finalVote": 413,
+        "sde": 0.3,
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Bennet",
+        "firstVote": 164,
+        "finalVote": 4,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 9,
+        "name": "Bloomberg",
+        "firstVote": 215,
+        "finalVote": 20,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Gabbard",
+        "firstVote": 341,
+        "finalVote": 16,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Patrick",
+        "firstVote": 9,
+        "finalVote": 0,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 0,
+        "name": "Other",
+        "firstVote": 1157,
+        "finalVote": 1656,
+        "sde": 0,
+        "delegates": 0
+      }
+    ]
+  },
+  "NH": {
+    "caucus": false,
+    "date": "February 11",
+    "name": "New Hampshire",
+    "votes": [
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "76,324",
+        "delegates": 9
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "72,457",
+        "delegates": 9
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "58,796",
+        "delegates": 6
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "27,387",
+        "delegates": 0
+      },
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "24,921",
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": "10,727",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "9,655",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": "8,315",
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": "1,266",
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Michael Bennet",
+        "finalVote": 963,
+        "delegates": 0
+      },
+      {
+        "id": 12,
+        "name": "Cory Booker",
+        "finalVote": 155,
+        "delegates": 0
+      },
+      {
+        "id": 13,
+        "name": "Joe Sestak",
+        "finalVote": 143,
+        "delegates": 0
+      },
+      {
+        "id": 14,
+        "name": "Kamala D. Harris",
+        "finalVote": 104,
+        "delegates": 0
+      },
+      {
+        "id": 15,
+        "name": "Marianne Williamson",
+        "finalVote": 95,
+        "delegates": 0
+      },
+      {
+        "id": 16,
+        "name": "Steve Burke",
+        "finalVote": 85,
+        "delegates": 0
+      },
+      {
+        "id": 17,
+        "name": "John Delaney",
+        "finalVote": 82,
+        "delegates": 0
+      },
+      {
+        "id": 18,
+        "name": "Julián Castro",
+        "finalVote": 81,
+        "delegates": 0
+      },
+      {
+        "id": 19,
+        "name": "Robert Carr Wells Jr.",
+        "finalVote": 81,
+        "delegates": 0
+      },
+      {
+        "id": 20,
+        "name": "Tom Koos",
+        "finalVote": 70,
+        "delegates": 0
+      },
+      {
+        "id": 21,
+        "name": "Michael Ellinger",
+        "finalVote": 65,
+        "delegates": 0
+      },
+      {
+        "id": 22,
+        "name": "Steve Bullock",
+        "finalVote": 63,
+        "delegates": 0
+      },
+      {
+        "id": 23,
+        "name": "Henry Hewes",
+        "finalVote": 54,
+        "delegates": 0
+      },
+      {
+        "id": 24,
+        "name": "David John Thistle",
+        "finalVote": 53,
+        "delegates": 0
+      },
+      {
+        "id": 25,
+        "name": "Sam Sloan",
+        "finalVote": 33,
+        "delegates": 0
+      },
+      {
+        "id": 26,
+        "name": "Mosemarie Boyd",
+        "finalVote": 32,
+        "delegates": 0
+      },
+      {
+        "id": 27,
+        "name": "Ben Gleiberman",
+        "finalVote": 31,
+        "delegates": 0
+      },
+      {
+        "id": 28,
+        "name": "Thomas Torgesen",
+        "finalVote": 30,
+        "delegates": 0
+      },
+      {
+        "id": 29,
+        "name": "Mark Stewart Greenstein",
+        "finalVote": 29,
+        "delegates": 0
+      },
+      {
+        "id": 30,
+        "name": "Rita Krichevsky",
+        "finalVote": 23,
+        "delegates": 0
+      },
+      {
+        "id": 31,
+        "name": "Lorenz Kraus",
+        "finalVote": 21,
+        "delegates": 0
+      },
+      {
+        "id": 32,
+        "name": "Roque De La Fuente III",
+        "finalVote": 12,
+        "delegates": 0
+      },
+      {
+        "id": 33,
+        "name": "Jason E. Dunlap",
+        "finalVote": 11,
+        "delegates": 0
+      },
+      {
+        "id": 34,
+        "name": "Raymond Moroz",
+        "finalVote": 9,
+        "delegates": 0
+      },
+      {
+        "id": 35,
+        "name": "Other",
+        "finalVote": "4,449",
+        "delegates": 0
+      }
+    ]
+  },
+  "NV": {
+    "caucus": true,
+    "date": "February 22",
+    "name": "Nevada",
+    "votes": [
+      {
+        "id": 1,
+        "name": "Sanders",
+        "firstVote": "35,652",
+        "finalVote": "41,075",
+        "sde": 46.8,
+        "delegates": 24
+      },
+      {
+        "id": 3,
+        "name": "Biden",
+        "firstVote": "18,424",
+        "finalVote": "19,179",
+        "sde": 20.2,
+        "delegates": 9
+      },
+      {
+        "id": 2,
+        "name": "Buttigieg",
+        "firstVote": "16,102",
+        "finalVote": "17,598",
+        "sde": 14.3,
+        "delegates": 3
+      },
+      {
+        "id": 4,
+        "name": "Warren",
+        "firstVote": "13,438",
+        "finalVote": "11,703",
+        "sde": 9.7,
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Steyer",
+        "firstVote": "9,503",
+        "finalVote": "4,120",
+        "sde": 4.7,
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Klobuchar",
+        "firstVote": "10,100",
+        "finalVote": "7,376",
+        "sde": 4.2,
+        "delegates": 0
+      },
+      {
+        "id": 0,
+        "name": "Other",
+        "firstVote": 472,
+        "finalVote": 367,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Gabbard",
+        "firstVote": 353,
+        "finalVote": 32,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Yang",
+        "firstVote": 612,
+        "finalVote": 49,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Bennet",
+        "firstVote": 140,
+        "finalVote": 36,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Patrick",
+        "firstVote": 86,
+        "finalVote": 8,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 17,
+        "name": "Delaney",
+        "firstVote": 1,
+        "finalVote": 0,
+        "sde": 0,
+        "delegates": 0
+      }
+    ]
+  }
+}
