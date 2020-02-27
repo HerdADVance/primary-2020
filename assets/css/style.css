@@ -1,17 +1,75 @@
-body{
-  font-family: 'Monsterrat', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+*:focus {
+  outline: none;
+}
+
+.mob {
+  display: none !important;
+}
+
+html {
+  display: flex;
+}
+
+body {
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* BASIC BLOCKS AND RESET */
+main {
+  flex-grow: 1;
+}
+
+.header, .footer {
+  flex-shrink: 0;
+}
+
+header, section, main, footer, .row, .clear {
+  clear: both;
+}
+
+header:after, section:after, main:after, footer:after, .row:after, .clear:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* HEADER */
+.header{
+  background: linear-gradient(45deg, cornflowerblue, dodgerblue);
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+.header h1{
+  font-size: 20px;
+}
+
 .svg-wrap{
   display: flex;
   justify-content: center;
-  width: 100%;
+  margin: 20px 0;
 }
-#us-map{
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 60%;
+#us-map{  
+  width: 700px;
 }
 path, circle{
   animation: all 1.25s ease;
@@ -58,9 +116,7 @@ path:hover, circle:hover {
 }*/
 
 .delegates{
-  bottom: 50px;
-  position: absolute;
-  width: 98%;
+  width: 100%;
 }
 .delegates table{
   width: 100%;

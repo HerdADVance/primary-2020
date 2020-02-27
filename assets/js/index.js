@@ -9,8 +9,8 @@ $("path, circle").mouseleave(function(e) {
 });
 
 $(document).mousemove(function(e) {
-  $('.votes-hover').css('top',e.pageY-$('.votes-hover').height()-30);
-  $('.votes-hover').css('left',e.pageX-($('.votes-hover').width())/2);
+  $('.votes-hover').css('top',e.pageY-$('.votes-hover').height()+80);
+  $('.votes-hover').css('left',e.pageX-($('.votes-hover').width())-30);
 }).mouseover();
 
 // var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -48,6 +48,16 @@ var candidates = [
         id: 5,
         name: "Amy Klobuchar",
         delegates: 0,
+    },
+    {
+        id: 6,
+        name: "Andrew Yang",
+        delegates: 0,
+    },
+    {
+        id: 7,
+        name: "Tom Steyer",
+        delegates: 0,
     }
 
 ];
@@ -59,7 +69,13 @@ _.forEach(stateData, function(state, key){
     $('#' + key).addClass("c" + sortedVotes[0].id);
 
     var counter = 0;
+    
+    // Start output for each state's hover info
     var output = '<strong>' + state.name + '</strong>';
+    output += '<span class="caucus">';
+        if(state.caucus) output += 'Caucus';
+        else output += 'Primary';
+    output += '</span>';
     output += '<table class="votes">';
         output += '<tr>';
             output += '<th>Name</th>';
@@ -67,19 +83,19 @@ _.forEach(stateData, function(state, key){
             output += '<th>Delegates</th>';
         output += '</tr>';
 
-    // Loop for each state    
+    // Loop for each Candidate in State   
     _.forEach(state.votes, function(candidate){
         
-        // Color Map and Count Delegates
+        // Color in state and count delegates
         var foundIndex = candidates.findIndex(x => x.id == candidate.id)
         if(foundIndex > -1){
             candidates[foundIndex].delegates += candidate.delegates;
         }
 
-        // Print tooltip table
+        // Print state's hover info table
         if(counter < 5){
             output += '<tr>'
-                output += '<td>' + candidate.name + '</td>'
+                output += '<td>' + candidates[foundIndex].name + '</td>'
                 output += '<td>' + candidate.finalVote + '</td>'
                 output += '<td>' + candidate.delegates + '</td>'
             output += '</tr>';
@@ -93,6 +109,7 @@ _.forEach(stateData, function(state, key){
 
 });
 
+// Output total delegate counter
 var needed = 1991;
 var output = '<table>'
 _.forEach(candidates, function(c){
