@@ -2,6 +2,7 @@ var stateData = {
   "IA": {
     "caucus": true,
     "date": "February 3",
+    "delegates": 41,
     "name": "Iowa",
     "votes":[
       {
@@ -105,6 +106,7 @@ var stateData = {
   "NH": {
     "caucus": false,
     "date": "February 11",
+    "delegates": 24,
     "name": "New Hampshire",
     "votes": [
       {
@@ -316,6 +318,7 @@ var stateData = {
   "NV": {
     "caucus": true,
     "date": "February 22",
+    "delegates": 36,
     "name": "Nevada",
     "votes": [
       {
@@ -415,5 +418,384 @@ var stateData = {
         "delegates": 0
       }
     ]
+  },
+  "SC": {
+    "caucus": false,
+    "date": "February 29",
+    "delegates": 54,
+    "name": "South Carolina",
+    "votes": false
+  },
+  "AL": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 52,
+    "name": "Alabama",
+    "votes": false
+  },
+  "AS": {
+    "caucus": true,
+    "date": "March 3",
+    "delegates": 6,
+    "name": "American Samoa",
+    "votes": false
+  },
+  "AR": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 31,
+    "name": "Arkansas",
+    "votes": false
+  },
+  "CA": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 415,
+    "name": "California",
+    "votes": false
+  },
+  "CO": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 67,
+    "name": "Colorado",
+    "votes": false
+  },
+  "DA": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 13,
+    "name": "Democrats Abroad",
+    "votes": false
+  },
+  "MA": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 91,
+    "name": "Massachusetts",
+    "votes": false
+  },
+  "ME": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 24,
+    "name": "Maine",
+    "votes": false
+  },
+  "MN": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 75,
+    "name": "Minnesota",
+    "votes": false
+  },
+  "NC": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 110,
+    "name": "North Carolina",
+    "votes": false
+  },
+  "OK": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 37,
+    "name": "Oklahoma",
+    "votes": false
+  },
+  "TN": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 64,
+    "name": "Tennessee",
+    "votes": false
+  },
+  "TX": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 228,
+    "name": "Texas",
+    "votes": false
+  },
+  "UT": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 29,
+    "name": "Utah",
+    "votes": false
+  },
+  "VA": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 99,
+    "name": "Virginia",
+    "votes": false
+  },
+  "VT": {
+    "caucus": false,
+    "date": "March 3",
+    "delegates": 16,
+    "name": "Vermont",
+    "votes": false
+  },
+  "ID": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 20,
+    "name": "Idaho",
+    "votes": false
+  },
+  "MI": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 125,
+    "name": "Michigan",
+    "votes": false
+  },
+  "MO": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 68,
+    "name": "Missouri",
+    "votes": false
+  },
+  "MS": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 36,
+    "name": "Mississippi",
+    "votes": false
+  },
+  "ND": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 14,
+    "name": "North Dakota",
+    "votes": false
+  },
+  "WA": {
+    "caucus": false,
+    "date": "March 10",
+    "delegates": 89,
+    "name": "Washington",
+    "votes": false
+  },
+  "MP": {
+    "caucus": true,
+    "date": "March 14",
+    "delegates": 6,
+    "name": "Northern Mariana Islands",
+    "votes": false
+  },
+  "AZ": {
+    "caucus": false,
+    "date": "March 17",
+    "delegates": 67,
+    "name": "Arizona",
+    "votes": false
+  },
+  "FL": {
+    "caucus": false,
+    "date": "March 17",
+    "delegates": 219,
+    "name": "Florida",
+    "votes": false
+  },
+  "IL": {
+    "caucus": false,
+    "date": "March 17",
+    "delegates": 155,
+    "name": "Illinois",
+    "votes": false
+  },
+  "OH": {
+    "caucus": false,
+    "date": "March 17",
+    "delegates": 136,
+    "name": "Ohio",
+    "votes": false
+  },
+  "GA": {
+    "caucus": false,
+    "date": "March 24",
+    "delegates": 105,
+    "name": "Georgia",
+    "votes": false
+  },
+  "PR": {
+    "caucus": false,
+    "date": "March 29",
+    "delegates": 51,
+    "name": "Puerto Rico",
+    "votes": false
+  },
+  "AK": {
+    "caucus": false,
+    "date": "April 4",
+    "delegates": 15,
+    "name": "Alaska",
+    "votes": false
+  },
+  "HI": {
+    "caucus": false,
+    "date": "April 4",
+    "delegates": 24,
+    "name": "Hawai'i",
+    "votes": false
+  },
+  "LA": {
+    "caucus": false,
+    "date": "April 4",
+    "delegates": 54,
+    "name": "Louisiana",
+    "votes": false
+  },
+  "WY": {
+    "caucus": true,
+    "date": "April 4",
+    "delegates": 14,
+    "name": "Wyoming",
+    "votes": false
+  },
+  "WI": {
+    "caucus": false,
+    "date": "April 7",
+    "delegates": 84,
+    "name": "Wisconsin",
+    "votes": false
+  },
+  "CT": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 60,
+    "name": "Connecticut",
+    "votes": false
+  },
+  "DE": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 21,
+    "name": "Delaware",
+    "votes": false
+  },
+  "MD": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 96,
+    "name": "Maryland",
+    "votes": false
+  },
+  "NY": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 274,
+    "name": "New York",
+    "votes": false
+  },
+  "PA": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 186,
+    "name": "Pennsylvania",
+    "votes": false
+  },
+  "RI": {
+    "caucus": false,
+    "date": "April 28",
+    "delegates": 26,
+    "name": "Rhode Island",
+    "votes": false
+  },
+  "GU": {
+    "caucus": true,
+    "date": "May 2",
+    "delegates": 7,
+    "name": "Guam",
+    "votes": false
+  },
+  "KS": {
+    "caucus": false,
+    "date": "May 2",
+    "delegates": 39,
+    "name": "Kansas",
+    "votes": false
+  },
+  "IN": {
+    "caucus": false,
+    "date": "May 5",
+    "delegates": 82,
+    "name": "Indiana",
+    "votes": false
+  },
+  "NE": {
+    "caucus": false,
+    "date": "May 12",
+    "delegates": 29,
+    "name": "Nebraska",
+    "votes": false
+  },
+  "WV": {
+    "caucus": false,
+    "date": "May 12",
+    "delegates": 28,
+    "name": "West Virginia",
+    "votes": false
+  },
+  "KY": {
+    "caucus": false,
+    "date": "May 19",
+    "delegates": 54,
+    "name": "Kentucky",
+    "votes": false
+  },
+  "OR": {
+    "caucus": false,
+    "date": "May 19",
+    "delegates": 61,
+    "name": "Oregon",
+    "votes": false
+  },
+  "DC": {
+    "caucus": false,
+    "date": "June 2",
+    "delegates": 20,
+    "name": "Washington DC",
+    "votes": false
+  },
+  "MT": {
+    "caucus": false,
+    "date": "June 2",
+    "delegates": 19,
+    "name": "Montana",
+    "votes": false
+  },
+  "NJ": {
+    "caucus": false,
+    "date": "June 2",
+    "delegates": 126,
+    "name": "New Jersey",
+    "votes": false
+  },
+  "NM": {
+    "caucus": false,
+    "date": "June 2",
+    "delegates": 34,
+    "name": "New Mexico",
+    "votes": false
+  },
+  "SD": {
+    "caucus": false,
+    "date": "June 2",
+    "delegates": 16,
+    "name": "South Dakota",
+    "votes": false
+  },
+  "VI": {
+    "caucus": true,
+    "date": "June 6",
+    "delegates": 7,
+    "name": "Virginia Islands",
+    "votes": false
   }
+  
 }

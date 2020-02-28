@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.mob {
+  display: none !important;
+}
+
+html {
+  display: flex;
+}
+
+body {
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* BASIC BLOCKS AND RESET */
+main {
+  flex-grow: 1;
+}
+
+.header, .footer {
+  flex-shrink: 0;
+}
+
+header, section, main, footer, .row, .clear {
+  clear: both;
+}
+
+header:after, section:after, main:after, footer:after, .row:after, .clear:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* COLUMNS */
+.row {
+  display: flex;
+}
+
+.row-vc {
+  align-items: center;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333%;
+}
+
+.col-8 {
+  width: 66.6666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333%;
+}
+
+.col-11 {
+  width: 91.6666%;
+}
+
+.col-12 {
+  width: 100%;
+}

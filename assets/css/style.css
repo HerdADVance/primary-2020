@@ -1,72 +1,19 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-*:focus {
-  outline: none;
-}
-
-.mob {
-  display: none !important;
-}
-
-html {
-  display: flex;
-}
-
-body {
-  background: aliceblue;
-  display: flex;
-  flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  min-height: 100vh;
-  width: 100%;
-}
-
-/* BASIC BLOCKS AND RESET */
-main {
-  flex-grow: 1;
-}
-
-.header, .footer {
-  flex-shrink: 0;
-}
-
-header, section, main, footer, .row, .clear {
-  clear: both;
-}
-
-header:after, section:after, main:after, footer:after, .row:after, .clear:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-h1, h2, h3, h4, h5, h6, ul, li, p {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-
 
 /* HEADER */
 .header{
   background: linear-gradient(45deg, cornflowerblue, dodgerblue);
   color: white;
-  padding: 0.5em;
+  padding: 0.25em;
   text-align: center;
 }
 .header h1{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .svg-wrap{
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 40px 0 20px;
 }
 #us-map{  
   width: 700px;
@@ -115,6 +62,12 @@ path:hover, circle:hover {
   fill: darkseagreen;
 }*/
 
+
+section{
+  margin-left: 5%;
+  margin-top: -140px;
+  width: 90%;
+}
 .delegates{
   width: 100%;
 }
@@ -126,12 +79,13 @@ path:hover, circle:hover {
 }
 .bar{
   background: #EEE;
-  height: 40px;
+  height: 32px;
   position: relative;
+  text-align: center;
   width: 85%;
 }
-.bar-del{
-  left: 45%;
+.bar-number{
+  font-size: 18px;
   position: relative;
   z-index: 3;
 }
@@ -140,7 +94,6 @@ path:hover, circle:hover {
   height: 100%;
   left: 0;
   position: absolute;
-  text-align: right;
   top: 0;
   z-index: 2;
 }
