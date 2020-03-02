@@ -56,7 +56,7 @@ path:hover, circle:hover {
 .c4{fill: cornflowerblue !important; background: cornflowerblue !important;} /* Warren */
 .c5{fill: firebrick !important; background: firebrick !important;} /* Klobuchar */
 
-#SC{fill: #999;}
+#{fill: #999;}
 
 /*#CA, #VT, #TX, #MN, #MA, #VA, #NC, #TN, #OK, #AR, #AL, #UT, #CO, #ME{
   fill: darkseagreen;

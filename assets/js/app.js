@@ -62,6 +62,8 @@ _.forEach(stateData, function(state, key){
 var needed = 1991;
 var totalDelgates = 3979;
 
+candidates = _.sortBy(candidates, ['delegates']).reverse();
+
 var output = '<table>'
 _.forEach(candidates, function(c){
     

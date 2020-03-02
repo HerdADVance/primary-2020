@@ -424,7 +424,80 @@ var stateData = {
     "date": "February 29",
     "delegates": 54,
     "name": "South Carolina",
-    "votes": false
+    "votes": [
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "256,047",
+        "delegates": 35
+      },
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "105,197",
+        "delegates": 13
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": "59,893",
+        "delegates": 0
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "43,606",
+        "delegates": 0
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "37,346",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "16,677",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "6,754",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": "1,045",
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Michael Bennet",
+        "finalVote": 753,
+        "delegates": 0
+      },
+      {
+        "id": 12,
+        "name": "Cory Booker",
+        "finalVote": 643,
+        "delegates": 0
+      },
+      {
+        "id": 17,
+        "name": "John Delaney",
+        "finalVote": 345,
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": 275,
+        "delegates": 0
+      }
+    ]
   },
   "AL": {
     "caucus": false,
