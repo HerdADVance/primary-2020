@@ -1,15 +1,15 @@
-$("path, circle").hover(function(e) {
+$("path, circle, .territory").hover(function(e) {
   $('.votes-hover').css('display','block');
   $('.votes-hover').html($(this).data('info'));
 });
 
-$("path, circle").mouseleave(function(e) {
+$("path, circle, .territory").mouseleave(function(e) {
   $('.votes-hover').css('display','none');
 });
 
 $(document).mousemove(function(e) {
   $('.votes-hover').css('top',e.pageY-$('.votes-hover').height()+80);
-  $('.votes-hover').css('left',e.pageX-($('.votes-hover').width())-30);
+  $('.votes-hover').css('left',e.pageX-($('.votes-hover').width())-40);
 }).mouseover();
 
 // var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

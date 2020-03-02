@@ -3,7 +3,7 @@
 .header{
   background: linear-gradient(45deg, cornflowerblue, dodgerblue);
   color: white;
-  padding: 0.25em;
+  height: 0;
   text-align: center;
 }
 .header h1{
@@ -18,14 +18,12 @@
 #us-map{  
   width: 700px;
 }
-path, circle{
+path, circle, .territory{
   animation: all 1.25s ease;
+  background: #D3D3D3;
   fill: #D3D3D3;
 }
-path:after{
-  content:'ABC';
-}
-path:hover, circle:hover {
+path:hover, circle:hover, .territory:hover {
   cursor: pointer;
   stroke: #333;
   stroke-width: 1px;
@@ -35,41 +33,121 @@ path:hover, circle:hover {
   stroke: #A9A9A9 !important;
   cursor: default;
 }
-.votes-hover {
-  display: none;
-  font-size: 10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-  background-color: #ffffff;
-  border: 2px solid #BF0A30;
-  border-radius: 5px;
-  padding: 5px;
-  font-family: arial;
+.territory{
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  text-align: center;
+  width: 36px;
 }
-
 
 .c1{fill: darkseagreen !important; background: darkseagreen !important;} /* Sanders */
 .c2{fill: darksalmon !important; background: darksalmon !important;} /* Buttigieg */
 .c3{fill: darkslateblue !important; background: darkslateblue !important;} /* Biden */
-.c4{fill: cornflowerblue !important; background: cornflowerblue !important;} /* Warren */
-.c5{fill: firebrick !important; background: firebrick !important;} /* Klobuchar */
+.c4{fill: steelblue !important; background: steelblue !important;} /* Warren */
+.c5{fill: maroon !important; background: maroon !important;} /* Klobuchar */
+.c7{fill: palevioletred !important; background: palevioletred !important;} /* Steyer */
+.c27{fill: goldenrod !important; background: khaki !important;} /* Bloomburg */
 
-#{fill: #999;}
+/*#MN{fill: maroon !important;}
+#NC{fill: goldenrod !important;}
 
-/*#CA, #VT, #TX, #MN, #MA, #VA, #NC, #TN, #OK, #AR, #AL, #UT, #CO, #ME{
-  fill: darkseagreen;
-}*/
+#CA, #VT, #TX, #OK, #UT, #CO, #ME, #AS, #DA{fill: darkseagreen !important; background: darkseagreen !important;}
+#AR, #AL, #TN, #VA{fill: darkslateblue !important;}
+#MA{fill: steelblue !important;}
+*/
 
 
-section{
+/* VOTES HOVER INFO */
+.votes-hover {
+  display: none;
+  font-size: 11px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #EEE;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 15px 10px;
+  text-align: center;
+  box-shadow: 1px 1px 4px #000;
+}
+.votes-hover strong{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.caucus{
+  color: #999;
+  font-size: 10px;
+}
+.votes{
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.votes tr:last-child td{
+  border-bottom: 0;
+}
+.votes th, .votes td{
+  padding: 3px 8px;
+  text-align: left;
+}
+.votes th{
+  background: #666;
+  border-bottom: 0;
+  color: white;
+  margin-bottom: 10px;
+  padding: 6px 8px;
+  text-align: center;
+}
+.votes td{
+  border-bottom: 1px solid #CCC;
+  padding: 4px 8px;
+  text-align: center;
+}
+.votes td span{
+  background: #000;
+  display: inline-block;
+  height: 10px;
+  margin-right: 8px;
+  width: 10px;
+}
+.votes td:first-child{
+  font-size: 12px;
+  line-height: 12px;
+  padding-left: 0;
+  text-align: left;
+}
+.votes td:last-child{
+  font-size: 13px;
+  font-weight: bold;
+}
+.votes tr:nth-child(2) td{
+  padding-top: 6px;
+}
+
+
+
+/* DELEGATE COUNT */
+.delegates-con{
   margin-left: 5%;
-  margin-top: -140px;
+  margin-top: -150px;
   width: 90%;
 }
-.delegates{
-  width: 100%;
+.delegates-con h1{
+  border-bottom: 1px solid #CCC;
+  font-size: 20px;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+}
+.delegates-needed{
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
 }
 .delegates table{
   width: 100%;
@@ -77,17 +155,28 @@ section{
 .name{
   width: 15%;
 }
+.delegates tr.dropped td:first-child{
+  color: firebrick;
+  text-decoration: line-through;
+}
 .bar{
   background: #EEE;
-  height: 32px;
+  height: 30px;
   position: relative;
   text-align: center;
-  width: 85%;
+  width: 75%;
 }
 .bar-number{
   font-size: 18px;
-  position: relative;
+  padding-left: 10px;
+  position: absolute;
+  top: 5px;
   z-index: 3;
+}
+.bar-pct{
+  color: #666;
+  font-size: 11px;
+  margin-left: 5px;
 }
 .bar-color{
   display: block;
@@ -97,24 +186,5 @@ section{
   top: 0;
   z-index: 2;
 }
-
-.votes-hover{
-  text-align: center;
-}
-.votes-hover strong{
-  display: block;
-  font-size: 16px;
-  margin: 8px 0;
-}
-.votes td{
-  border-bottom: 1px solid #EEE;
-  padding: 3px 10px;
-}
-.votes tr:last-child td{
-  border-bottom: 0;
-}
-
-
-
 
 

@@ -354,14 +354,6 @@ var stateData = {
         "delegates": 0
       },
       {
-        "id": 7,
-        "name": "Steyer",
-        "firstVote": "9,503",
-        "finalVote": "4,120",
-        "sde": 4.7,
-        "delegates": 0
-      },
-      {
         "id": 5,
         "name": "Klobuchar",
         "firstVote": "10,100",
@@ -370,18 +362,18 @@ var stateData = {
         "delegates": 0
       },
       {
+        "id": 7,
+        "name": "Steyer",
+        "firstVote": "9,503",
+        "finalVote": "4,120",
+        "sde": 4.7,
+        "delegates": 0
+      },
+      {
         "id": 0,
         "name": "Other",
         "firstVote": 472,
         "finalVote": 367,
-        "sde": 0,
-        "delegates": 0
-      },
-      {
-        "id": 10,
-        "name": "Gabbard",
-        "firstVote": 353,
-        "finalVote": 32,
         "sde": 0,
         "delegates": 0
       },
@@ -398,6 +390,14 @@ var stateData = {
         "name": "Bennet",
         "firstVote": 140,
         "finalVote": 36,
+        "sde": 0,
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Gabbard",
+        "firstVote": 353,
+        "finalVote": 32,
         "sde": 0,
         "delegates": 0
       },
@@ -429,13 +429,13 @@ var stateData = {
         "id": 3,
         "name": "Joe Biden",
         "finalVote": "256,047",
-        "delegates": 35
+        "delegates": 39
       },
       {
         "id": 1,
         "name": "Bernie Sanders",
         "finalVote": "105,197",
-        "delegates": 13
+        "delegates": 15
       },
       {
         "id": 7,
@@ -867,7 +867,7 @@ var stateData = {
     "caucus": true,
     "date": "June 6",
     "delegates": 7,
-    "name": "Virginia Islands",
+    "name": "Virgin Islands",
     "votes": false
   }
   
