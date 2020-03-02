@@ -8,8 +8,16 @@ $("path, circle, .territory").mouseleave(function(e) {
 });
 
 $(document).mousemove(function(e) {
-  $('.votes-hover').css('top',e.pageY-$('.votes-hover').height()+80);
-  $('.votes-hover').css('left',e.pageX-($('.votes-hover').width())-40);
+
+  var top = e.pageY-$('.votes-hover').height()/2 - 10;
+  if(top < 0) top = 0;
+
+  var left = e.pageX-($('.votes-hover').width())-40;
+  //if(left < 0) left = 0;
+
+  $('.votes-hover').css('top', top);
+  $('.votes-hover').css('left', left);
+
 }).mouseover();
 
 // var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
