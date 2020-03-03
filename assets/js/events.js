@@ -13,7 +13,7 @@ $(document).mousemove(function(e) {
   if(top < 0) top = 0;
 
   var left = e.pageX-($('.votes-hover').width())-40;
-  //if(left < 0) left = 0;
+  if(left < 0) left = 0;
 
   $('.votes-hover').css('top', top);
   $('.votes-hover').css('left', left);

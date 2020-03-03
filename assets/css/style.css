@@ -19,7 +19,7 @@ body{
   padding: 10px 0 20px;
 }
 #us-map{  
-  width: 620px;
+  width: 680px;
 }
 path, circle, .territory{
   animation: all 1.25s ease;
@@ -137,7 +137,7 @@ path:hover, circle:hover, .territory:hover {
 /* DELEGATE COUNT */
 .delegates-con{
   background: lightgrey;
-  margin-top: -215px;
+  margin-top: -165px;
   padding-bottom: 30px;
 }
 .delegates-con h1{
