@@ -56,8 +56,8 @@ path:hover, circle:hover, .territory:hover {
 
 #CA, #VT, #TX, #OK, #UT, #CO, #ME, #AS, #DA{fill: darkseagreen !important; background: darkseagreen !important;}
 #AR, #AL, #TN, #VA{fill: darkslateblue !important;}
-#MA{fill: steelblue !important;}
-*/
+#MA{fill: steelblue !important;}*/
+
 
 
 /* VOTES HOVER INFO */
@@ -133,20 +133,27 @@ path:hover, circle:hover, .territory:hover {
 
 /* DELEGATE COUNT */
 .delegates-con{
-  margin-left: 5%;
   margin-top: -150px;
-  width: 90%;
 }
 .delegates-con h1{
-  border-bottom: 1px solid #CCC;
+  background: cornflowerblue;
+  box-shadow: 0px 2px 4px #333;
+  color: white;
   font-size: 20px;
-  margin-bottom: 24px;
-  padding-bottom: 5px;
+  margin-bottom: 15px;
+  padding: 15px 5%;
+  text-align: center;
+}
+.delegates-con .row{
+  margin: 0 10%;
 }
 .delegates-needed{
+  color: #333;
+  display: block;
   float: right;
   font-size: 12px;
   font-weight: bold;
+  padding-bottom: 5px;
   text-align: right;
 }
 .delegates table{
@@ -160,11 +167,12 @@ path:hover, circle:hover, .territory:hover {
   text-decoration: line-through;
 }
 .bar{
-  background: #EEE;
-  height: 30px;
+  background: #DDD;
+  border-bottom: 4px solid aliceblue;
+  border-top: 4px solid aliceblue;
+  height: 38px;
   position: relative;
   text-align: center;
-  width: 75%;
 }
 .bar-number{
   font-size: 18px;

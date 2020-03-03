@@ -3,31 +3,31 @@ var candidates = [
     {
         id: 1,
         name: "Bernie Sanders",
-        delegates: 0,
+        delegates: 700,
         dropped: false
     },
     {
         id: 2,
         name: "Pete Buttigieg",
-        delegates: 0,
+        delegates: 30,
         dropped: true
     },
     {
         id: 3,
         name: "Joe Biden",
-        delegates: 0,
+        delegates: 500,
         dropped: false
     },
     {
         id: 4,
         name: "Elizabeth Warren",
-        delegates: 0,
+        delegates: 250,
         dropped: false
     },
     {
         id: 5,
         name: "Amy Klobuchar",
-        delegates: 0,
+        delegates: 40,
         dropped: true
     },
     {

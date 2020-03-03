@@ -31,8 +31,20 @@ function printStateInfo(){
                 output += '<tr>';
                     output += '<th>Name</th>';
                     output += '<th>Votes</th>';
+                    output += '<th>Pct</th>';
                     output += '<th>Delegates</th>';
                 output += '</tr>';
+
+            // Add total votes for each state
+            var totalVotes = 0;
+            _.forEach(state.votes, function(candidate){
+                var vote = candidate.finalVote;
+                if(typeof vote === 'string'){
+                    vote = parseInt(vote.replace(/,/g, ''), 10)
+                    candidate.finalVote = vote;
+                }
+                totalVotes += vote;
+            })
 
             // Loop for each Candidate in State   
             _.forEach(state.votes, function(candidate){
@@ -49,9 +61,9 @@ function printStateInfo(){
                     // Print state's hover info table
                     if(counter < 6){
                         output += '<tr>'
-                            console.log(candidates[foundIndex])
                             output += '<td><span class="c' + candidate.id + '"></span>' + candidates[foundIndex].name + '</td>'
-                            output += '<td>' + candidate.finalVote + '</td>'
+                            output += '<td>' + candidate.finalVote.toLocaleString() + '</td>'
+                            output += '<td>' + (parseInt(candidate.finalVote) / totalVotes * 100).toFixed(1) + '%</td>'
                             output += '<td>' + candidate.delegates + '</td>'
                         output += '</tr>';
                     }
