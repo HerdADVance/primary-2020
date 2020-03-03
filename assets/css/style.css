@@ -1,4 +1,6 @@
-
+body{
+  background: lightgrey;
+}
 /* HEADER */
 .header{
   background: linear-gradient(45deg, cornflowerblue, dodgerblue);
@@ -11,9 +13,10 @@
 }
 
 .svg-wrap{
+  background: aliceblue;
   display: flex;
   justify-content: center;
-  margin: 40px 0 20px;
+  padding: 40px 0 20px;
 }
 #us-map{  
   width: 700px;
@@ -133,6 +136,7 @@ path:hover, circle:hover, .territory:hover {
 
 /* DELEGATE COUNT */
 .delegates-con{
+  background: lightgrey;
   margin-top: -150px;
 }
 .delegates-con h1{
@@ -140,7 +144,7 @@ path:hover, circle:hover, .territory:hover {
   box-shadow: 0px 2px 4px #333;
   color: white;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 15px 5%;
   text-align: center;
 }
@@ -153,24 +157,27 @@ path:hover, circle:hover, .territory:hover {
   float: right;
   font-size: 12px;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   text-align: right;
 }
 .delegates table{
+  border-collapse: collapse;
   width: 100%;
 }
 .name{
-  width: 15%;
+  font-weight: bold;
+  width: 17.5%;
 }
 .delegates tr.dropped td:first-child{
   color: firebrick;
   text-decoration: line-through;
 }
 .bar{
-  background: #DDD;
-  border-bottom: 4px solid aliceblue;
-  border-top: 4px solid aliceblue;
+  background: #EEE;
+  border-bottom: 4px solid lightgrey;
+  border-top: 4px solid lightgrey;
   height: 38px;
+  margin-left: 10px;
   position: relative;
   text-align: center;
 }
