@@ -3,25 +3,25 @@ var candidates = [
     {
         id: 1,
         name: "Bernie Sanders",
-        delegates: 0,
+        delegates: 1000,
         dropped: false
     },
     {
         id: 2,
         name: "Pete Buttigieg",
-        delegates: 0,
+        delegates: 30,
         dropped: true
     },
     {
         id: 3,
         name: "Joe Biden",
-        delegates: 0,
+        delegates: 770,
         dropped: false
     },
     {
         id: 4,
         name: "Elizabeth Warren",
-        delegates: 0,
+        delegates: 450,
         dropped: false
     },
     {
@@ -77,6 +77,12 @@ var candidates = [
         name: "John Delaney",
         delegates: 0,
         dropped: true
+    },
+    {
+        id: 27,
+        name: "Michael Bloomberg",
+        delegates: 300,
+        dropped: false
     }
 
 ];
