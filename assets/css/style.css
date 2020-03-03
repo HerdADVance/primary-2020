@@ -74,7 +74,7 @@ path:hover, circle:hover, .territory:hover {
   background-color: #EEE;
   border: 1px solid #999;
   border-radius: 5px;
-  padding: 15px 10px;
+  padding: 15px;
   text-align: center;
   box-shadow: 1px 1px 4px #000;
 }
@@ -140,12 +140,12 @@ path:hover, circle:hover, .territory:hover {
   margin-top: -150px;
 }
 .delegates-con h1{
-  background: cornflowerblue;
+  background: linear-gradient(90deg, rgba(7,38,59,1) 0%, rgba(15,101,187,1) 100%);
   box-shadow: 0px 2px 4px #333;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 20px;
-  padding: 15px 5%;
+  padding: 12px 5%;
   text-align: center;
 }
 .delegates-con .row{
@@ -165,33 +165,38 @@ path:hover, circle:hover, .territory:hover {
   width: 100%;
 }
 .name{
-  font-weight: bold;
-  width: 17.5%;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 30px;
+  text-align: right;
+  width: 18%;
 }
 .delegates tr.dropped td:first-child{
   color: firebrick;
+  font-weight: normal;
   text-decoration: line-through;
 }
 .bar{
   background: #EEE;
-  border-bottom: 4px solid lightgrey;
-  border-top: 4px solid lightgrey;
-  height: 38px;
-  margin-left: 10px;
+  border-bottom: 5px solid lightgrey;
+  border-top: 5px solid lightgrey;
+  height: 40px;
   position: relative;
   text-align: center;
 }
 .bar-number{
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   padding-left: 10px;
   position: absolute;
-  top: 5px;
+  top: 7px;
   z-index: 3;
 }
 .bar-pct{
   color: #666;
-  font-size: 11px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 8px;
 }
 .bar-color{
   display: block;
