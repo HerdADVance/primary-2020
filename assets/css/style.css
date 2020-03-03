@@ -16,10 +16,10 @@ body{
   background: aliceblue;
   display: flex;
   justify-content: center;
-  padding: 40px 0 20px;
+  padding: 10px 0 20px;
 }
 #us-map{  
-  width: 700px;
+  width: 620px;
 }
 path, circle, .territory{
   animation: all 1.25s ease;
@@ -137,15 +137,16 @@ path:hover, circle:hover, .territory:hover {
 /* DELEGATE COUNT */
 .delegates-con{
   background: lightgrey;
-  margin-top: -150px;
+  margin-top: -215px;
+  padding-bottom: 30px;
 }
 .delegates-con h1{
   background: linear-gradient(90deg, rgba(7,38,59,1) 0%, rgba(15,101,187,1) 100%);
   box-shadow: 0px 2px 4px #333;
   color: white;
-  font-size: 24px;
-  margin-bottom: 20px;
-  padding: 12px 5%;
+  font-size: 20px;
+  margin-bottom: 12px;
+  padding: 8px 5%;
   text-align: center;
 }
 .delegates-con .row{
@@ -157,7 +158,7 @@ path:hover, circle:hover, .territory:hover {
   float: right;
   font-size: 12px;
   font-weight: bold;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   text-align: right;
 }
 .delegates table{
@@ -165,8 +166,8 @@ path:hover, circle:hover, .territory:hover {
   width: 100%;
 }
 .name{
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
   padding-right: 30px;
   text-align: right;
   width: 18%;
