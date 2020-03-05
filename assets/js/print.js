@@ -102,6 +102,8 @@ function printDelegateCount(){
 
     candidates = _.sortBy(candidates, ['delegates']).reverse();
 
+    console.log(candidates)
+
     var output = '<table>'
     _.forEach(candidates, function(c){
         

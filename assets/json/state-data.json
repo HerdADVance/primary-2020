@@ -571,61 +571,61 @@ var stateData = {
         "id": 14,
         "name": "Harris",
         "finalVote": 734,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 6,
         "name": "Yang",
         "finalVote": 730,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 8,
         "name": "Bennet",
         "finalVote": 597,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 12,
         "name": "Booker",
         "finalVote": 592,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 15,
         "name": "Williamson",
         "finalVote": 521,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 17,
         "name": "Delaney",
         "finalVote": 502,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 22,
         "name": "Bullock",
         "finalVote": 501,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 13,
         "name": "Sestak",
         "finalVote": 427,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 26,
         "name": "Boyd",
         "finalVote": 415,
-        "delegates": "0.00%"
+        "delegates": "0"
       },
       {
         "id": 18,
         "name": "Castro",
         "finalVote": 324,
-        "delegates": "0.00%"
+        "delegates": "0"
       }
     ]
   },
