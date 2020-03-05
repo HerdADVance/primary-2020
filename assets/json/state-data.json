@@ -518,7 +518,116 @@ var stateData = {
     "date": "March 3",
     "delegates": 31,
     "name": "Arkansas",
-    "votes": false
+    "votes": [
+      {
+        "id": 3,
+        "name": "Biden",
+        "finalVote": "92,586",
+        "delegates": 17
+      },
+      {
+        "id": 1,
+        "name": "Sanders",
+        "finalVote": "51,117",
+        "delegates": 9
+      },
+      {
+        "id": 27,
+        "name": "Bloomberg",
+        "finalVote": "38,213",
+        "delegates": 5
+      },
+      {
+        "id": 4,
+        "name": "Warren",
+        "finalVote": "22,860",
+        "delegates": 0
+      },
+      {
+        "id": 2,
+        "name": "Buttigieg",
+        "finalVote": "7,657",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Klobuchar",
+        "finalVote": "7,014",
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Steyer",
+        "finalVote": "2,070",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Gabbard",
+        "finalVote": "1,616",
+        "delegates": 0
+      },
+      {
+        "id": 14,
+        "name": "Harris",
+        "finalVote": 734,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 6,
+        "name": "Yang",
+        "finalVote": 730,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 8,
+        "name": "Bennet",
+        "finalVote": 597,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 12,
+        "name": "Booker",
+        "finalVote": 592,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 15,
+        "name": "Williamson",
+        "finalVote": 521,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 17,
+        "name": "Delaney",
+        "finalVote": 502,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 22,
+        "name": "Bullock",
+        "finalVote": 501,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 13,
+        "name": "Sestak",
+        "finalVote": 427,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 26,
+        "name": "Boyd",
+        "finalVote": 415,
+        "delegates": "0.00%"
+      },
+      {
+        "id": 18,
+        "name": "Castro",
+        "finalVote": 324,
+        "delegates": "0.00%"
+      }
+    ]
   },
   "CA": {
     "caucus": false,
@@ -574,7 +683,92 @@ var stateData = {
     "date": "March 3",
     "delegates": 37,
     "name": "Oklahoma",
-    "votes": false
+    "votes": [
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "117,552",
+        "delegates": 21
+      },
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "77,302",
+        "delegates": 13
+      },
+      {
+        "id": 27,
+        "name": "Michael Bloomberg",
+        "finalVote": "42,243",
+        "delegates": 3
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "40,676",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "6,728",
+        "delegates": 0
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "5,113",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "5,106",
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": "2,006",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": "1,993",
+        "delegates": 0
+      },
+      {
+        "id": 12,
+        "name": "Cory Booker",
+        "finalVote": "1,529",
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Michael Bennet",
+        "finalVote": "1,272",
+        "delegates": 0
+      },
+      {
+        "id": 15,
+        "name": "Marianne Williamson",
+        "finalVote": "1,158",
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": 679,
+        "delegates": 0
+      },
+      {
+        "id": 18,
+        "name": "Julian Castro",
+        "finalVote": 620,
+        "delegates": 0
+      }
+    ]
   },
   "TN": {
     "caucus": false,
@@ -602,14 +796,178 @@ var stateData = {
     "date": "March 3",
     "delegates": 99,
     "name": "Virginia",
-    "votes": false
+    "votes": [
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "705,800",
+        "delegates": 66
+      },
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "306,024",
+        "delegates": 31
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "142,470",
+        "delegates": 2
+      },
+      {
+        "id": 27,
+        "name": "Michael Bloomberg",
+        "finalVote": "129,784",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "11,279",
+        "delegates": 0
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "11,190",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "8,413",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": "3,364",
+        "delegates": 0
+      },
+      {
+        "id": 12,
+        "name": "Cory Booker",
+        "finalVote": "1,957",
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Michael Bennet",
+        "finalVote": "1,731",
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": "1,587",
+        "delegates": 0
+      },
+      {
+        "id": 18,
+        "name": "Julian Castro",
+        "finalVote": 933,
+        "delegates": 0
+      },
+      {
+        "id": 15,
+        "name": "Marianne Williamson",
+        "finalVote": 925,
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": 381,
+        "delegates": 0
+      }
+    ]
   },
   "VT": {
     "caucus": false,
     "date": "March 3",
     "delegates": 16,
     "name": "Vermont",
-    "votes": false
+    "votes": [
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "80,121",
+        "delegates": 11
+      },
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "34,734",
+        "delegates": 5
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "19,816",
+        "delegates": 0
+      },
+      {
+        "id": 27,
+        "name": "Michael Bloomberg",
+        "finalVote": "14,843",
+        "delegates": 0
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "3,714",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "2,023",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "1,298",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": 589,
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": 205,
+        "delegates": 0
+      },
+      {
+        "id": 15,
+        "name": "Marianne Williamson",
+        "finalVote": 144,
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": 140,
+        "delegates": 0
+      },
+      {
+        "id": 29,
+        "name": "Mark Greenstein",
+        "finalVote": 107,
+        "delegates": 0
+      },
+      {
+        "id": 18,
+        "name": "Julian Castro",
+        "finalVote": 52,
+        "delegates": 0
+      }
+    ]
   },
   "ID": {
     "caucus": false,

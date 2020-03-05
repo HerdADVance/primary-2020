@@ -82,7 +82,7 @@ var candidates = [
         id: 27,
         name: "Michael Bloomberg",
         delegates: 0,
-        dropped: false
+        dropped: true
     }
 
 ];
