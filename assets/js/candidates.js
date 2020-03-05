@@ -22,7 +22,7 @@ var candidates = [
         id: 4,
         name: "Elizabeth Warren",
         delegates: 0,
-        dropped: false
+        dropped: true
     },
     {
         id: 5,
@@ -103,6 +103,12 @@ var candidates = [
         dropped: true
     },
     {
+        id: 19,
+        name: "Robby Wells",
+        delegates: 0,
+        dropped: true
+    },
+    {
         id: 22,
         name: "Steve Bullock",
         delegates: 0,
@@ -123,6 +129,12 @@ var candidates = [
     {
         id: 29,
         name: "Mark Greenstein",
+        delegates: 0,
+        dropped: true
+    },
+    {
+        id: 32,
+        name: "Roque De La Fuente III",
         delegates: 0,
         dropped: true
     },
