@@ -53,6 +53,7 @@ path:hover, circle:hover, .territory:hover {
 .c5{fill: maroon !important; background: maroon !important;} /* Klobuchar */
 .c7{fill: palevioletred !important; background: palevioletred !important;} /* Steyer */
 .c27{fill: goldenrod !important; background: goldenrod !important;} /* Bloomberg */
+.counting{fill: #333 !important; background: #333 !important}
 
 /*#MN{fill: maroon !important;}
 #NC{fill: goldenrod !important;}

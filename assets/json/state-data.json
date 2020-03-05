@@ -504,14 +504,14 @@ var stateData = {
     "date": "March 3",
     "delegates": 52,
     "name": "Alabama",
-    "votes": false
+    "votes": "counting"
   },
   "AS": {
     "caucus": true,
     "date": "March 3",
     "delegates": 6,
     "name": "American Samoa",
-    "votes": false
+    "votes": "counting"
   },
   "AR": {
     "caucus": false,
@@ -634,49 +634,49 @@ var stateData = {
     "date": "March 3",
     "delegates": 415,
     "name": "California",
-    "votes": false
+    "votes": "counting"
   },
   "CO": {
     "caucus": false,
     "date": "March 3",
     "delegates": 67,
     "name": "Colorado",
-    "votes": false
+    "votes": "counting"
   },
   "DA": {
     "caucus": false,
     "date": "March 3",
     "delegates": 13,
     "name": "Democrats Abroad",
-    "votes": false
+    "votes": "counting"
   },
   "MA": {
     "caucus": false,
     "date": "March 3",
     "delegates": 91,
     "name": "Massachusetts",
-    "votes": false
+    "votes": "counting"
   },
   "ME": {
     "caucus": false,
     "date": "March 3",
     "delegates": 24,
     "name": "Maine",
-    "votes": false
+    "votes": "counting"
   },
   "MN": {
     "caucus": false,
     "date": "March 3",
     "delegates": 75,
     "name": "Minnesota",
-    "votes": false
+    "votes": "counting"
   },
   "NC": {
     "caucus": false,
     "date": "March 3",
     "delegates": 110,
     "name": "North Carolina",
-    "votes": false
+    "votes": "counting"
   },
   "OK": {
     "caucus": false,
@@ -775,21 +775,21 @@ var stateData = {
     "date": "March 3",
     "delegates": 64,
     "name": "Tennessee",
-    "votes": false
+    "votes": "counting"
   },
   "TX": {
     "caucus": false,
     "date": "March 3",
     "delegates": 228,
     "name": "Texas",
-    "votes": false
+    "votes": "counting"
   },
   "UT": {
     "caucus": false,
     "date": "March 3",
     "delegates": 29,
     "name": "Utah",
-    "votes": false
+    "votes": "counting"
   },
   "VA": {
     "caucus": false,

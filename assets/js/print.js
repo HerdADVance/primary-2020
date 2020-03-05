@@ -16,9 +16,11 @@ function printStateInfo(){
             else output += 'Primary';
         output += ': ' + state.date + '</span>';
         
+        // Color black if counting
+        if(state.votes == 'counting') $('#' + key).addClass("counting");
 
         // If state has voted yet
-        if(state.votes){
+        if(state.votes && state.votes != 'counting'){
 
             // Color Map    
             var sortedVotes = _.orderBy(state.votes, ['delegates'], ['desc']);
@@ -74,22 +76,26 @@ function printStateInfo(){
             })
             output += '</table>'
 
-        } else{ // State is upcoming
+        } else{ // State is upcoming or counting
 
-            // Checking to see if state needs up next color
-            if(!nextDone){
-                if(!nextUp){
-                    nextUp = true;
-                    nextDate = state.date;
-                } else{
-                    if(nextDate != state.date){
-                        nextUp = false;
-                        nextDone = true;
+            if(state.votes != 'counting'){
+
+                // Checking to see if state needs up next color
+                if(!nextDone){
+                    if(!nextUp){
+                        nextUp = true;
+                        nextDate = state.date;
+                    } else{
+                        if(nextDate != state.date){
+                            nextUp = false;
+                            nextDone = true;
+                        }
                     }
                 }
-            }
 
-            if(nextUp) $('#' + key).css({ fill: '#AAA', background: '#AAA' });
+                if(nextUp) $('#' + key).css({ fill: '#AAA', background: '#AAA' });
+
+            }
         }
 
         $('#' + key).attr('data-info', output);
@@ -101,8 +107,6 @@ function printStateInfo(){
 function printDelegateCount(){
 
     candidates = _.sortBy(candidates, ['delegates']).reverse();
-
-    console.log(candidates)
 
     var output = '<table>'
     _.forEach(candidates, function(c){
