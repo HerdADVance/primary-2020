@@ -27,7 +27,21 @@ function printStateInfo(){
             $('#' + key).addClass("c" + sortedVotes[0].id);
 
             var counter = 0;
-            
+
+            // Add total votes and delegates for each state
+            var totalVotes = 0;
+            var totalStateDelegates = 0;
+
+            _.forEach(state.votes, function(candidate){
+                var vote = candidate.finalVote;
+                if(typeof vote === 'string'){
+                    vote = parseInt(vote.replace(/,/g, ''), 10)
+                    candidate.finalVote = vote;
+                }
+                totalVotes += vote;
+                totalStateDelegates += candidate.delegates
+            })
+
             // Start Votes table
             output += '<table class="votes">';
                 output += '<tr>';
@@ -37,22 +51,11 @@ function printStateInfo(){
                     output += '<th>Delegates</th>';
                 output += '</tr>';
 
-            // Add total votes and delegates for each state
-            var totalVotes = 0;
-            var totalDelegates = 0;
-
-            _.forEach(state.votes, function(candidate){
-                var vote = candidate.finalVote;
-                if(typeof vote === 'string'){
-                    vote = parseInt(vote.replace(/,/g, ''), 10)
-                    candidate.finalVote = vote;
-                }
-                totalVotes += vote;
-                totalDelegates += candidate.delegates
-            })
-
-            // Make opaque if not all delegates accounted for
-            if(totalDelegates < state.delegates) $('#' + key).css('opacity', '0.5')
+            // Make opaque and add message if not all delegates accounted for yet
+            if(totalStateDelegates < state.delegates){
+                $('#' + key).css('opacity', '0.6');
+                output += '<span class="state-del-left">' + (state.delegates - totalStateDelegates) + ' delegates still remaining</span>';
+            }
 
             // Loop for each Candidate in State   
             _.forEach(state.votes, function(candidate){
@@ -99,7 +102,7 @@ function printStateInfo(){
                     }
                 }
 
-                if(nextUp) $('#' + key).css({ fill: '#AAA', background: '#AAA' });
+                if(nextUp) $('#' + key).addClass('next');
 
             }
         }
@@ -140,5 +143,6 @@ function printDelegateCount(){
     totalDelegates = totalDelegates.toLocaleString();
     $('.delegates-left').text(totalDelegates);
 }
+
 
 

@@ -18,6 +18,7 @@ body{
   justify-content: center;
   padding: 10px 0 20px;
 }
+
 #us-map{  
   width: 680px;
 }
@@ -36,6 +37,11 @@ path:hover, circle:hover, .territory:hover {
   stroke: #A9A9A9 !important;
   cursor: default;
 }
+
+/* TERRITORIES & LEGEND */
+.territories{
+  margin-top: 25px;
+}
 .territory{
   font-size: 14px;
   height: 36px;
@@ -45,7 +51,27 @@ path:hover, circle:hover, .territory:hover {
   text-align: center;
   width: 36px;
 }
+.legend{
+  margin-left: -84px;
+  margin-top: 165px;
+}
+.legend strong{
+  display: block;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.legend span{
+  display: inline-block;
+  height: 20px;
+  margin-right: 3px;
+  width: 20px;
+}
+.legend td{
+  font-size: 10px;
+}
 
+
+/* COLORS */
 .c1{fill: darkseagreen !important; background: darkseagreen !important;} /* Sanders */
 .c2{fill: darksalmon !important; background: darksalmon !important;} /* Buttigieg */
 .c3{fill: darkslateblue !important; background: darkslateblue !important;} /* Biden */
@@ -54,7 +80,8 @@ path:hover, circle:hover, .territory:hover {
 .c10{fill: palevioletred !important; background: palevioletred !important;} /* Gabbard */
 .c27{fill: goldenrod !important; background: goldenrod !important;} /* Bloomberg */
 .counting{fill: #333 !important; background: #333 !important}
-
+.next{fill: #999 !important; background: #999 !important;}
+.opaque{opacity: 0.6;}
 
 
 
@@ -126,7 +153,11 @@ path:hover, circle:hover, .territory:hover {
 .votes tr:nth-child(2) td{
   padding-top: 6px;
 }
-
+.state-del-left{
+  color: crimson;
+  display: block;
+  margin-top: 5px;
+}
 
 
 /* DELEGATE COUNT */
@@ -202,5 +233,6 @@ path:hover, circle:hover, .territory:hover {
   top: 0;
   z-index: 2;
 }
+
 
 
