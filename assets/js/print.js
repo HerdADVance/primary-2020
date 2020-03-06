@@ -37,8 +37,10 @@ function printStateInfo(){
                     output += '<th>Delegates</th>';
                 output += '</tr>';
 
-            // Add total votes for each state
+            // Add total votes and delegates for each state
             var totalVotes = 0;
+            var totalDelegates = 0;
+
             _.forEach(state.votes, function(candidate){
                 var vote = candidate.finalVote;
                 if(typeof vote === 'string'){
@@ -46,7 +48,11 @@ function printStateInfo(){
                     candidate.finalVote = vote;
                 }
                 totalVotes += vote;
+                totalDelegates += candidate.delegates
             })
+
+            // Make opaque if not all delegates accounted for
+            if(totalDelegates < state.delegates) $('#' + key).css('opacity', '0.5')
 
             // Loop for each Candidate in State   
             _.forEach(state.votes, function(candidate){

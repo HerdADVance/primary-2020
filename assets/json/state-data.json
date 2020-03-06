@@ -665,7 +665,128 @@ var stateData = {
     "date": "March 3",
     "delegates": 415,
     "name": "California",
-    "votes": "counting"
+    "votes": [
+      {
+        "id": 1,
+        "name": "Bernie Sanders",
+        "finalVote": "1,089,373",
+        "delegates": 167
+      },
+      {
+        "id": 3,
+        "name": "Joe Biden",
+        "finalVote": "817,728",
+        "delegates": 116
+      },
+      {
+        "id": 27,
+        "name": "Michael Bloomberg",
+        "finalVote": "457,217",
+        "delegates": 15
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Warren",
+        "finalVote": "398,124",
+        "delegates": 5
+      },
+      {
+        "id": 2,
+        "name": "Pete Buttigieg",
+        "finalVote": "198,721",
+        "delegates": 0
+      },
+      {
+        "id": 5,
+        "name": "Amy Klobuchar",
+        "finalVote": "98,852",
+        "delegates": 0
+      },
+      {
+        "id": 7,
+        "name": "Tom Steyer",
+        "finalVote": "84,784",
+        "delegates": 0
+      },
+      {
+        "id": 6,
+        "name": "Andrew Yang",
+        "finalVote": "30,964",
+        "delegates": 0
+      },
+      {
+        "id": 10,
+        "name": "Tulsi Gabbard",
+        "finalVote": "21,943",
+        "delegates": 0
+      },
+      {
+        "id": 18,
+        "name": "Julian Castro",
+        "finalVote": "9,986",
+        "delegates": 0
+      },
+      {
+        "id": 8,
+        "name": "Michael Bennet",
+        "finalVote": "5,145",
+        "delegates": 0
+      },
+      {
+        "id": 15,
+        "name": "Marianne Williamson",
+        "finalVote": "4,929",
+        "delegates": 0
+      },
+      {
+        "id": 32,
+        "name": "Roque De La Fuente III",
+        "finalVote": "4,286",
+        "delegates": 0
+      },
+      {
+        "id": 12,
+        "name": "Cory Booker",
+        "finalVote": "4,250",
+        "delegates": 0
+      },
+      {
+        "id": 17,
+        "name": "John Delaney",
+        "finalVote": "3,250",
+        "delegates": 0
+      },
+      {
+        "id": 29,
+        "name": "Mark Greenstein",
+        "finalVote": "2,334",
+        "delegates": 0
+      },
+      {
+        "id": 21,
+        "name": "Michael Ellinger",
+        "finalVote": "2,328",
+        "delegates": 0
+      },
+      {
+        "id": 13,
+        "name": "Joe Sestak",
+        "finalVote": "2,224",
+        "delegates": 0
+      },
+      {
+        "id": 11,
+        "name": "Deval Patrick",
+        "finalVote": "1,507",
+        "delegates": 0
+      },
+      {
+        "id": 26,
+        "name": "Mosie Boyd",
+        "finalVote": "1,180",
+        "delegates": 0
+      }
+    ]
   },
   "CO": {
     "caucus": false,
