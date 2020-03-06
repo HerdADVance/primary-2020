@@ -133,10 +133,22 @@ var candidates = [
         dropped: true
     },
     {
+        id: 30,
+        name: "Rita Krichevsky",
+        delegates: 0,
+        dropped: true
+    },
+    {
         id: 32,
         name: "Roque De La Fuente III",
         delegates: 0,
         dropped: true
     },
+    {
+        id: 37,
+        name: "Nathan Bloxham",
+        delegates: 0,
+        dropped: true
+    }
 
 ];

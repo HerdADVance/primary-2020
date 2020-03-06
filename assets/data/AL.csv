@@ -1,19 +1,17 @@
-id,name,finalVote,delegates
-3,Biden,"92,586",17
-1,Sanders,"51,117",9
-27,Bloomberg,"38,213",5
-4,Warren,"22,860",0
-2,Buttigieg,"7,657",0
-5,Klobuchar,"7,014",0
-7,Steyer,"2,070",0
-10,Gabbard,"1,616",0
-14,Harris,734,0.00%
-6,Yang,730,0.00%
-8,Bennet,597,0.00%
-12,Booker,592,0.00%
-15,Williamson,521,0.00%
-17,Delaney,502,0.00%
-22,Bullock,501,0.00%
-13,Sestak,427,0.00%
-26,Boyd,415,0.00%
-18,Castro,324,0.00%
+
+ALid,name,finalVote,delegates
+3,Joe Biden,"286,065",41
+1,Bernie Sanders,"74,755",7
+27,Michael Bloomberg,"52,750",1
+4,Elizabeth Warren,"25,847",0
+8,Michael Bennet,"2,250",0
+2,Pete Buttigieg,"1,416",0
+7,Tom Steyer,"1,048",0
+10,Tulsi Gabbard,"1,038",0
+5,Amy Klobuchar,907,0
+6,Andrew Yang,875,0
+12,Cory Booker,740,0
+17,John Delaney,294,0
+15,Marianne Williamson,224,0
+18,Julian Castro,184,0
+35,Uncommitted,"3,700",0
